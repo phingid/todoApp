@@ -1,0 +1,26 @@
+.todo__active {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.active__task {
+    padding: 22px 20px;
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task__text {
+    color: var(--color-active);
+}
+
+.task__ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

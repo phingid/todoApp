@@ -5,3 +5,11 @@
     padding: 4px;
     border-radius: 10px;
 }
+
+.button_add {
+    background: none;
+}
+
+.button_clear {
+    background: none;
+}

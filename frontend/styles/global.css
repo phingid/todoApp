@@ -15,4 +15,8 @@ body {
     margin-inline: auto;
     background-color: var(--color-primary);
     border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
