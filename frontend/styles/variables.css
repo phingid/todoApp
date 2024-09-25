@@ -1,0 +1,17 @@
+:root {
+    /* colors */
+
+    --color-primary: #1D1825;
+    --color-secondary: #15101C;
+    --color-background: #1E1E1E;
+
+    --color-active: #9E78CF;
+    --color-completed: #78CFB0;
+    --color-default: #777777;
+
+    --color-white: #FFFFFF;
+
+    /* fonts */
+
+    --font-family-primary: 'Inter', sans-serif;
+}
