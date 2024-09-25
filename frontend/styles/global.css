@@ -2,4 +2,17 @@ body {
     font-family: var(--font-family-primary);
     color: var(--color-default);
     background-color: var(--color-background);
+    font-size: 16px;
+}
+
+.app {
+    --max-width: 1024px;
+    --padding-inline: 100px;
+    --padding-block: 55px;
+    max-width: calc(var(--max-width) + var(--padding-inline) * 2 );
+    padding-inline: var(--padding-inline);
+    padding-block: var(--padding-block);
+    margin-inline: auto;
+    background-color: var(--color-primary);
+    border-radius: 20px;
 }

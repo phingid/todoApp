@@ -2,3 +2,5 @@
 @import url('../fonts/index.css');
 @import url('variables.css');
 @import url('global.css');
+@import url('ui/index.css');
+@import url('components/index.css');

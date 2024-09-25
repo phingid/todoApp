@@ -1,0 +1,15 @@
+.todo__create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.todo__text {
+    background: inherit;
+    border: 1px solid var(--color-active);
+    border-radius: 10px;
+    padding: 10px 15px;
+    outline: none;
+    color: inherit;
+}

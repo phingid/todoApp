@@ -1,0 +1,7 @@
+.button {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-active);
+    padding: 4px;
+    border-radius: 10px;
+}
