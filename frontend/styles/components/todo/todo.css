@@ -2,3 +2,30 @@
     color: var(--color-white);
     font-size: 16px;
 }
+
+.task {
+    padding: 22px 20px;
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+}
+
+.task__active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task__text {
+    color: var(--color-active);
+}
+.task__text-complete {
+    color: var(--color-completed);
+    text-decoration: line-through;
+}
+
+.task__ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
